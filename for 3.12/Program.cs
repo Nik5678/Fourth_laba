@@ -8,7 +8,7 @@
             int n = int.Parse(Console.ReadLine());
             if (n < 1)
             {
-                Console.WriteLine("Введите число больше 0!");
+                Console.WriteLine("Введите число больше 0");
                 return;
             }
             int sum = 0;
@@ -28,8 +28,8 @@
                 sum += odd;
                 odd += 2;
             }
-            Console.WriteLine($"{n}² = {decomposition} = {sum}");
-            Console.WriteLine($"Проверка: {n} × {n} = {n * n}");
+            Console.WriteLine($"{n}^2 = {decomposition} = {sum}");
+            Console.WriteLine($"Проверка: {n} * {n} = {n * n}");
         }
     }
 }
